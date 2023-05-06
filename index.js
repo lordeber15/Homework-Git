@@ -1,9 +1,15 @@
-function laCajaDePandora(numero) {
-  // proximamente escribiremos codigo aqui
-  const colision = true;
-  return numero % 2 ? numero.toString(16) : numero.toString(2);
-}
+function laCajaDePandora(numero){
+    // proximamente escribiremos codigo aqui
+    return numero % 2 === 0? numero.toString(2):numero.toString(16)
+    }
 
+function jesus (){
+    return {
+        nombre:"jesus",
+        edad:35,
+        nacionalidad: "venezolano"
+    }
+}
 function facu() {
   return {
     nombre: "Facundo",
@@ -11,3 +17,4 @@ function facu() {
     nacionalidad: "Argentino",
   };
 }
+
