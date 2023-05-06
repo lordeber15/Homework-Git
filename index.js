@@ -1,11 +1,9 @@
-function laCajaDePandora(numero) {
+
+function laCajaDePandora(numero){
     // proximamente escribiremos codigo aqui
-    if (numero % 2 === 0) {
-        return numero.toString(2);
-    } else {
-        return numero.toString(16);
+    return numero % 2 === 0? numero.toString(2):numero.toString(16)
     }
-}
+
 
 const martoObj = () => {
     return {
@@ -13,4 +11,20 @@ const martoObj = () => {
         edad: 15,
         origin: "Arg"
     }
+}
+
+
+function jesus (){
+    return {
+        nombre:"jesus",
+        edad:35,
+        nacionalidad: "venezolano"
+    }
+}
+function facu() {
+  return {
+    nombre: "Facundo",
+    edad: 19,
+    nacionalidad: "Argentino",
+  };
 }
