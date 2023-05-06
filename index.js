@@ -18,4 +18,10 @@ function laCajaDePandora(numero) {
   }
 }
 
-console.log(laCajaDePandora(21));
+function anita() {
+  return {
+    nombre: "Anita",
+    edad: 28,
+    nacionalidad: "porteña =P",
+  };
+}
