@@ -6,3 +6,11 @@ function laCajaDePandora(numero) {
         return numero.toString(16);
     }
 }
+
+const martoObj = () => {
+    return {
+        nombre: marto,
+        edad: 15,
+        origin: Arg
+    }
+}
