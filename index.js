@@ -9,8 +9,8 @@ function laCajaDePandora(numero) {
 
 const martoObj = () => {
     return {
-        nombre: marto,
+        nombre: "marto",
         edad: 15,
-        origin: Arg
+        origin: "Arg"
     }
 }
