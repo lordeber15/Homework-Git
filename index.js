@@ -1,9 +1,19 @@
 
 
+
 function laCajaDePandora(numero){
     // proximamente escribiremos codigo aqui
     return numero % 2 === 0? numero.toString(2):numero.toString(16)
     }
+    
+
+function eber() {
+  return {
+    nombre: "eber",
+    edad: 32,
+    nacionalidad: "Peruano",
+}
+}
 
 function anita() {
   return {
@@ -34,5 +44,6 @@ function facu() {
     nombre: "Facundo",
     edad: 19,
     nacionalidad: "Argentino",
+
   };
 }
